@@ -1,0 +1,83 @@
+.register-wrapper{
+    background-image: linear-gradient(135deg, aqua 40%,blue 90%   );
+    padding: 100px;
+    color: #999;
+    
+}
+.register-wrapper * {
+    box-sizing: border-box;
+    width: 100%;
+}
+.register-wrapper input{
+    display: inline-block;
+    padding: 0px 20px;
+    border: solid 1px #e6e6e6;
+    border-bottom-width: 3px ;
+    border-radius: 5px;
+    outline: none;
+    line-height: 50px;
+    height: 50px;
+    transition: all 0.2s ease-in;
+}
+.register-wrapper input:not(:last-child){
+    margin-bottom: 20px;
+    
+}
+.register-wrapper input:not(:last-child):focus{
+    border: 4px solid gray;
+}
+.register-wrapper input[type="submit"]{
+    padding: 0 20px;
+    background-size: 25px 25px; 
+    display: inline-block;
+    background-color: red;
+    background-image: linear-gradient(
+                      45deg ,
+                      rgba(255,255,255,0.2) 25%,
+                      rgba(0,0,0,0) 25%,
+                      rgba(0,0,0,0) 50% ,
+                      rgba(255,255,255,0.2) 50%,    
+                      rgba(255,255,255,0.2) 75%, 
+                      rgba(0,0,0,0) 75%,
+                      rgba(0,0,0,0)
+    );
+}
+.register-wrapper input[type="submit"]:hover{
+    background-size: 50px 50px ;
+    transition: 1s;
+}
+.register-block{
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    max-width: 400px;
+    background: white;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+.register-block::before,
+.register-block::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    background: white;
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 6px;
+    z-index: -1;
+    transform: scale(0.9) translate(0,0);
+    transition: all 0.5s ease;
+}
+.register-block:hover::before{
+    transform: scale(1.1) translate(0,16px);
+    z-index: -1;
+
+}
+.register-block:hover::after{
+    transform: scale(0.92) translate(0,32px);
+    z-index: -2;
+
+}
