@@ -5,3 +5,4 @@
 3.) Clipping Images
 4.) Registration Form
 5.) Useful Broken Image
+6.) Printing Specific layout
