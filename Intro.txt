@@ -1,3 +1,5 @@
 # Day wise Schedule of CSS Elements :
 
 1.) Fancy Buttons.
+2.) Typography.
+3.) Clipping Images
