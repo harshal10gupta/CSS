@@ -3,3 +3,5 @@
 1.) Fancy Buttons.
 2.) Typography.
 3.) Clipping Images
+4.) Registration Form
+5.) Useful Broken Image
