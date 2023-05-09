@@ -1,0 +1,23 @@
+.shadow-typo{
+    font-size: 5rem;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    color: #00b3b4;
+    text-shadow: 4px 4px 0 white,
+                 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.threedee-typo{
+    font-size: 5rem;
+    color: #f2395a;
+    transform: skew(-5deg,-5deg ) rotate(5deg);
+    text-shadow: 1px 1px #d10e31,
+                 2px 2px #d10e31,
+                 3px 3px #d10e31,
+                 4px 4px #d10e31,
+                 5px 5px #d10e31,
+                 6px 6px #d10e31,
+                 7px 7px rgba(0, 0, 0, 0.5),
+                 8px 8px rgba(0, 0, 0, 0.9);
+                 
+}
