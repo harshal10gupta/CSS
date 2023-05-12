@@ -23,10 +23,11 @@
 21.)Animated Spinners
 22.)Flexbox layouts
 23.)Accordion
-24.)Sliding Panels
-25.)3D layers
-26.)Dropdowns
-27.)CSS optimization points
-28.)Blurry Effects
-29.)Coffee Cup design
-30.)
+24.)Support problems in OS
+25.)Sliding Panels
+26.)3D layers
+27.)Dropdowns
+28.)CSS optimization points
+29.)Blurry Effects
+30.)Coffee Cup design
+
