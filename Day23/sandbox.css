@@ -1,0 +1,34 @@
+.accordion{
+    display: block;
+    position: relative;
+    background-color: black;
+    border: solid 1px blue;
+}
+.accordion .accordion__content {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    transition: height 0.5s ease, padding 0.3s linear;
+  }
+.accordion .accordion__content:target {
+    height: 150px;
+  }
+
+.accordion__content p{
+    color: white;
+    padding: 15px;
+}
+
+.accordion .accordion__title{
+    background-color: aqua;
+    width: 100%;
+    height: 40px;
+color: black;
+font-weight: 800;
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 10px 10px;
+    
+}
