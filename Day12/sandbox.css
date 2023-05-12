@@ -1,0 +1,18 @@
+ .sandbox{
+    --one-col: orange;
+    --two-col: red;
+ }
+
+ .sandbox .box{
+    height: 200px;
+    width: 200px;
+    color: white;
+    background-color: var(--one-col);
+    line-height: 200px;
+    text-align: center;
+    margin: 25px auto;
+ }
+
+.sandbox .box2{
+    background-color: var(--two-col);
+ }
