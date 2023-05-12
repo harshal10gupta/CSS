@@ -1,0 +1,26 @@
+.sticky-header-lesson{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.stick-sidebar-lesson::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.sticky-sidebar-lesson .sandbox{
+    width: 60%;
+    float: left;
+    margin-left: 10%;
+}
+
+.sticky-sidebar{
+    background-color: paleturquoise;
+    box-sizing: border-box;
+    padding: 50px;
+    position: fixed;
+    width: 25%;
+    float: right;
+    right: 2%;
+}
