@@ -1,0 +1,39 @@
+.dropdown{
+    position: relative;
+    display: inline-block;
+    z-index: 2;
+}
+
+.dropdown__hover{
+    width: 200px;
+    display: inline-block;
+    background-color: #222;
+    padding: 10px;
+    color: white;
+}
+.dropdown__menu{
+    width: 200px;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+}
+.dropdown:hover .dropdown__menu{
+    display: block;
+    width: 200px;
+    color: #222;
+}
+
+.dropdown__menu a{
+    background-color: white;
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 10px;
+    z-index: 88;
+    font-weight: 800;
+    
+}
+.dropdown__menu a:hover{
+    color: red;
+}
